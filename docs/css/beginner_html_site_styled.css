@@ -1,0 +1,21 @@
+.background_color {
+    background-color: rgb(0, 84, 255);
+}
+.main {
+    margin: 0 auto;
+    border: 5px solid black;
+    padding: 0 20px 20px 20px;
+    background-color: orange;
+    width: 620px;
+    font-size: 18px;
+    line-height: 2;
+}
+.center {
+    text-align: center;
+}
+.head_font {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(0, 84, 255);
+    text-shadow: 3px 3px 3px black;
+}

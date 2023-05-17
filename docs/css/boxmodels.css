@@ -1,0 +1,22 @@
+* {
+    border: 1px dotted gray;
+  }
+.bordered {
+    border: 6px solid blue;
+    /*border-style: dashed solid dotted double;*/
+}
+.margined {
+    /* margin: 5px 6px 7px 8px; */
+    /*margin은 다른 태그와 함께 띄울 때 사용.*/
+    margin: 0 auto;
+    /* auto : width를 유지하면서 자동으로 양옆을 주라는 뜻 */
+    width: 150px;
+}
+.paddinged {
+  padding: 10px 11px 12px 13px;
+  border: 1px solid red;
+}
+.aligned {
+  font-size: 20px;
+  text-align: center;
+}

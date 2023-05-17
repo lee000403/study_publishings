@@ -1,0 +1,22 @@
+.verse {
+    color: blue;
+}
+
+.title {
+    color: blueviolet;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+.chorus {
+    color: green;
+    font-size: 12px;
+}
+body {
+    background-color: burlywood;
+}
+.text_effect {
+    font-weight: 900;
+    font-size: 20px;
+    color: coral;
+    text-shadow: 5px 5px 5px black;
+}
