@@ -1,0 +1,37 @@
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+}
+.flex-container_1 {
+    display: flex;
+    background-color: DodgerBlue;
+    flex-direction: row;
+    /* flex-direction : 방향성 row, column 이 있다. */
+    justify-content: space-between;
+    /* justify-content : 정렬 방법 (end 는 오른쪽, start 는 왼쪽, center 는 가운데 */
+    /* space-around: 하나하나의 태그를 양쪽 간격에 띄워서 맞춰준다. 전체 다 띄워져 있다. */
+    /* space-between : 양쪽 맨 끝이랑 가운데에 들어간다. */
+}
+.flex-container_2 {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.flex-container_2 > div {
+    /* 셀렉터 (>) 해당 셀렉터에 자식. 한 단계해당 자식만 적용 가능.  */
+    /* > 없으면 자식의 자식의 자식 등등등 다 적용 */
+    background-color: #f1f1f1;
+    /* 컬러 색상 적용 방법 */
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    /* 줄 간격 */
+    font-size: 30px;
+    /* 하나의 사각형에만 적용되는 값이다. */
+}
