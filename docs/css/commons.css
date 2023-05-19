@@ -1,6 +1,3 @@
-.text-grey { 
-    color: rgb(150, 150, 150);
-}
 .border {
-    border: none white !important;
+    border: 5px black !important;
 }
